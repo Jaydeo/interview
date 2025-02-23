@@ -1,13 +1,15 @@
-package org.example;
+package org.mastercard;
 
-public class PaymentProcessor<T extends Payment> {
+import org.mastercard.Payment;
+
+public class PaymentProcessor <T extends Payment>{
     private T paymentMethod;
 
-    public PaymentProcessor(T paymentMethod) {
-        this.paymentMethod = paymentMethod;
+    public PaymentProcessor(T paymentMethod){
+        this.paymentMethod=paymentMethod;
     }
 
-    public void executePayment() {
+    public  void executePayment(){
         paymentMethod.processPayment();
     }
 }

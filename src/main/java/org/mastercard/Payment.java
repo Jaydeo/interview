@@ -1,4 +1,4 @@
-package org.example;
+package org.mastercard;
 
 abstract  class  Payment{
     public  abstract void processPayment();

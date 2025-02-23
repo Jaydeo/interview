@@ -1,4 +1,4 @@
-package org.example;
+package org.mastercard;
 interface Interface1{
     default void sayHello(){
         System.out.println("hell i am from interface1");
