@@ -1,4 +1,4 @@
-package org.programming;
+package org.programming.array_related;
 
 import java.util.ArrayList;
 import java.util.Arrays;
