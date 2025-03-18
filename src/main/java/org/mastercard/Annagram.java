@@ -8,7 +8,7 @@ public class Annagram {
         //Input: strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
         //Output: [["eat","tea","ate"],["tan","nat"],["bat"]]
         List<String> list = Arrays.asList("eat", "tea", "tan", "ate", "nat", "bat");
-        List<Collection<List<String>>> result = getResult(list);
+        List<List<String>> result = getResult(list);
         result.stream().forEach(e-> System.out.println(e));
     }
 
